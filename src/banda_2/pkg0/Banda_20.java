@@ -27,7 +27,7 @@ public class Banda_20 {
             // TODO code application logic here
 
             Cripto a = new Cripto("Pippo");
-            byte[] x =a.encryptText("Ciao Come va lì ?? ^ !3456&/wegffwje");
+            byte[] x =a.encryptText("Ciao Come vafegegreg lì ?? ^ !3456&/wegffwje");
             System.out.println("Ciao Come va lì ?? ^ !3456&/wegffwje");
             System.out.println(a.decryptText(x));
             
